@@ -10,3 +10,5 @@
 -   span 元素常常用来展示不同样式的文本
 -   span 元素默认是 inline 元素
 -   block 元素默认占满宽度（独占一行），并且在其前后会有换行符
+-   使用animation时，最好只使用2个属性，即opacity和transform，它们是浏览器特殊优化过的
+- backface-visibility 本来是用于隐藏元素的背面（旋转时不可见），不过它也可以用于animation中的元素异常抖动问题（不清楚原理，但可行）
