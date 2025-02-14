@@ -14,3 +14,5 @@
 -   backface-visibility 本来是用于隐藏元素的背面（旋转时不可见），不过它也可以用于 animation 中的元素异常抖动问题（不清楚原理，但可行）
 -   文本级元素（如 span、a、strong、em 等）默认是 inline 元素，而结构级元素（如 div、p、h1-h6 等）默认是 block 元素。内联元素无法设置宽高，而结构级元素可以设置宽高。内联元素会在同一行内紧密排列（表现为入侵），而块级元素会独占一行。可以使用 display: inline-block 来同时获得内联和块级元素的特性。
 -   伪类:active 表示元素被点击时（按下鼠标并松开）的状态
+-   ::after 伪元素必须设置 content 属性（即使为空值如 content: ""），否则不会显示。该伪元素可以被视为是元素的最后一个子元素，并且可以设置宽高、位置等属性（例如 height:100%时，伪元素会占满整个元素的高度）。同样的规则也适用于 ::before 伪元素。
+-   animation-fill-mode: backwards 表示动画开始前，元素会应用动画第一帧的样式，animation-fill-mode: forwards 表示动画结束后，元素会应用动画最后一帧的样式
