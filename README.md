@@ -16,3 +16,4 @@
 -   伪类:active 表示元素被点击时（按下鼠标并松开）的状态
 -   ::after 伪元素必须设置 content 属性（即使为空值如 content: ""），否则不会显示。该伪元素可以被视为是元素的最后一个子元素，并且可以设置宽高、位置等属性（例如 height:100%时，伪元素会占满整个元素的高度）。同样的规则也适用于 ::before 伪元素。
 -   animation-fill-mode: backwards 表示动画开始前，元素会应用动画第一帧的样式，animation-fill-mode: forwards 表示动画结束后，元素会应用动画最后一帧的样式
+-   3 pillars:Responsive design, Maintainable and scalableWeb, code performance
