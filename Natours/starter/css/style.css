@@ -6,7 +6,6 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
-
 *,
 *::after,
 *::before {
@@ -64,7 +63,6 @@ body {
 .heading-primary {
     color: #fff;
     text-transform: uppercase;
-
     backface-visibility: hidden;
     margin-bottom: 6rem;
 }
@@ -154,7 +152,6 @@ body {
         transform: translateX(0);
     }
 }
-
 @keyframes moveInRight {
     0% {
         opacity: 0;
@@ -168,15 +165,15 @@ body {
         transform: translateX(0);
     }
 }
-
 @keyframes moveInBottom {
     0% {
         opacity: 0;
         transform: translateY(10rem);
     }
-
     100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
+
+/*# sourceMappingURL=style.css.map */
