@@ -20,3 +20,4 @@
 -   Atomic design pattern: Atoms, Molecules, Organisms, Templates, Pages
 -   BEM: Block, Element, Modifier, 元素和修饰符之间用--链接，如 .btn--primary， 模块和元素之间用\_\*2 链接，如 .header\_\*2logo-box
 -   优先使用 max-width 代替 width
+-   属性选择器可以用于代码复用
