@@ -46,6 +46,7 @@ html {
 
 body {
   box-sizing: border-box;
+  padding: 3rem;
 }
 
 .heading-primary {
@@ -92,6 +93,19 @@ body {
 .heading-secondary:hover {
   transform: skewY(2deg) skewX(15deg) scale(1.1);
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+}
+.paragraph:not(:last-child) {
+  margin-bottom: 3rem;
 }
 
 .u-center-text {
@@ -155,6 +169,25 @@ body {
   animation-fill-mode: backwards;
 }
 
+.btn-text:link, .btn-text:visited {
+  font-size: 1.6rem;
+  color: #f9ed69;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #f9ed69;
+  padding: 3px;
+}
+.btn-text:hover {
+  background-color: #f9ed69;
+  color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+.btn-text:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(0);
+}
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
@@ -192,7 +225,6 @@ body {
   clear: both;
 }
 .row [class^=col-] {
-  background-color: orangered;
   float: left;
 }
 .row [class^=col-]:not(:last-child) {
