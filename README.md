@@ -22,3 +22,5 @@
 -   优先使用 max-width 代替 width
 -   属性选择器可以用于代码复用
 -   使用 clip-path 时，会使 overflow: hidden 失效，可以手动加 border-radius
+-   shape-outside 属性可以用于设置元素的形状。这个属性严格要求元素 float，并且有宽度个高度
+-   响应式设计中，图片必须有一个宽度
