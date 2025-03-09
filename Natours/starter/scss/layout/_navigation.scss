@@ -15,11 +15,6 @@
         box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
         text-align: center;
         cursor: pointer;
-
-        // @include respond(tab-port) {
-        //     top: 4rem;
-        //     right: 4rem;
-        // }
     }
 
     &__checkbox:checked ~ &__background {
@@ -35,42 +30,7 @@
     &__icon {
         position: relative;
         margin-top: 3.5rem;
-
-        // &,
-        // &::before,
-        // &::after {
-        //     width: 3rem;
-        //     height: 2px;
-        //     background-color: $color-grey-dark-3;
-        //     display: inline-block;
-        // }
-
-        // &::before,
-        // &::after {
-        //     content: '';
-        //     position: absolute;
-        // }
     }
-
-    // &__button:hover &__icon::before {
-    //     top: -1rem;
-    // }
-
-    // &__button:hover &__icon::after {
-    //     top: 1rem;
-    // }
-
-    // &__icon::before {
-    //     top: -0.8rem;
-    // }
-
-    // &__icon::after {
-    //     top: 0.8rem;
-    // }
-
-    // &__button:hover &__icon {
-    //     transform: rotate(90deg);
-    // }
 
     &__background {
         height: 6rem;
@@ -84,7 +44,7 @@
             $color-primary-dark
         );
 
-        transform: translate(-50%, -50%) scale(50%);
+        // transform: translate(-50%, -50%) scale(50%);
         transition: all 0.8s cubic-bezier(0.86, 0, 0.07, 1);
         z-index: -1;
     }
