@@ -25,3 +25,4 @@
 -   shape-outside 属性可以用于设置元素的形状。这个属性严格要求元素 float，并且有宽度个高度
 -   响应式设计中，图片必须有一个宽度
 -   opacity:0 会使元素不可见，但是仍然占据空间，而 visibility:hidden 会使元素不可见，并且不占据空间。但是后者不能展示动画效果。可以通过 opacity:0 和 visibility:hidden 配合使用来实现动画效果。
+-   author 配合 target 可以实现 modal 的显示隐藏效果
