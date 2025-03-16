@@ -9,9 +9,9 @@
     transition: transform 0.3s;
     width: 100%;
 
-    // @include respond(tab-port) {
-    //     padding: 4rem;
-    // }
+    @include respond(tab-port) {
+        padding: 4rem;
+    }
 
     &:hover {
         transform: translateY(-1.5rem) scale(1.05);
@@ -28,6 +28,10 @@
         );
         -webkit-background-clip: text;
         color: transparent;
+
+        @include respond(tablet-portrait) {
+            margin-bottom: 0;
+        }
     }
 
     &-text {
