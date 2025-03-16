@@ -35,6 +35,8 @@ $breakpoint argument choices:
 - tablet-landscape
 - desktop
 - big-desktop
+
+order: base + typography > general layout + grid > page layout > components
 */
 
 @mixin respond($breakpoint) {
