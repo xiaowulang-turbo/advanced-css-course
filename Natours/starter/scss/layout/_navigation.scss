@@ -15,6 +15,16 @@
         box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
         text-align: center;
         cursor: pointer;
+
+        @include respond(tablet-portrait) {
+            top: 4.5rem;
+            right: 4.5rem;
+        }
+
+        @include respond(phone) {
+            top: 3.5rem;
+            right: 3.5rem;
+        }
     }
 
     &__background {
@@ -28,6 +38,16 @@
             $color-primary-light,
             $color-primary-dark
         );
+
+        @include respond(tablet-portrait) {
+            top: 4.5rem;
+            right: 4.5rem;
+        }
+
+        @include respond(phone) {
+            top: 3.5rem;
+            right: 3.5rem;
+        }
 
         // transform: translate(-50%, -50%) scale(50%);
         transition: transform 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
