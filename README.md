@@ -28,3 +28,4 @@
 -   author 配合 target 可以实现 modal 的显示隐藏效果
 -   媒体查询中的 rem 和 em 不受根字体大小的影响，他们总是等于浏览器字体大小，默认值为 16px。rems 在不同浏览器之间兼容性较差，在媒体查询中使用 ems 是更好的选择（几年前）
 -   媒体查询放置的顺序有讲究:大的放在小的前面，否则小的永远不会被应用
+-   background-size: cover 会完全覆盖背景，而 background-size: 100% 会撑满宽度(等同于 background-size: 100% auto)
