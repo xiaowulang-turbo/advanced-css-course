@@ -29,3 +29,6 @@
 -   媒体查询中的 rem 和 em 不受根字体大小的影响，他们总是等于浏览器字体大小，默认值为 16px。rems 在不同浏览器之间兼容性较差，在媒体查询中使用 ems 是更好的选择（几年前）
 -   媒体查询放置的顺序有讲究:大的放在小的前面，否则小的永远不会被应用
 -   background-size: cover 会完全覆盖背景，而 background-size: 100% 会撑满宽度(等同于 background-size: 100% auto)
+-   如果没有" <meta name="viewport" content="width=device-width, initial-scale=1.0" />"，则移动端会默认缩放页面，导致页面变小
+-   "@media only screen and (max-width: 37.5em)"中的"only screen"表示只适用于浏览器屏幕，不适用于打印
+-   不能仅凭宽度来判断设备是否为移动设备，例如 ipad 也有很大的宽度。但 ipad 这类移动设备也不具备 hover 功能。这种情况下需要利用媒体查询添加额外的配置
