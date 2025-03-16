@@ -12,11 +12,20 @@
         border-top: 1px solid $color-grey-dark;
         padding-top: 2rem;
         display: inline-block;
+
+        @include respond(tablet-portrait) {
+            width: 100%;
+            text-align: center;
+        }
     }
 
     &__logo-box {
         text-align: center;
         margin-bottom: 8rem;
+
+        @include respond(tablet-portrait) {
+            margin-bottom: 6rem;
+        }
     }
 
     &__list {
@@ -54,5 +63,10 @@
         border-top: 1px solid $color-grey-dark;
         padding-top: 2rem;
         display: inline-block;
+
+        @include respond(tablet-portrait) {
+            width: 100%;
+            text-align: center;
+        }
     }
 }
